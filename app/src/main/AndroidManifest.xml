@@ -22,17 +22,17 @@
             android:label="@string/title_activity_scrolling"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.rohit_pc.moviemanager.MainActivity" />
-        </activity>
-        <activity android:name=".Dynamic_View">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit_pc.moviemanager.MainActivity" />
         </activity>
+        <activity android:name=".Dynamic_View">
+           </activity>
     </application>
 
 </manifest>
